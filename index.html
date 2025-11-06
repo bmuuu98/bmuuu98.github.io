@@ -2,16 +2,161 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name</title>
-  <link rel="stylesheet" href="inventory/style.css">
+<title>Boyang Mu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164217576-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-164217576-1');
+</script>
+
+<style>
+/* Create a container for the page, that occupies 900px of the width of the page, or 100% if the page is too narrow.*/
+.container {
+	width: min(800px, 100%);
+	margin: 0 auto; /* Center horizontally */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #3A5791;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+	text-align: center;
+    justify-content: space-between;
+}
+
+header div {
+	width: calc(100% - 200px); /* Set the width of the right column */
+}
+
+/* Media query for narrow screens */
+@media (max-width: 800px) {
+    header {
+		flex-direction: column; /* Change to column direction on narrow screens */
+        text-align: center;
+    }
+	header div {
+		width: 100%; /* Full width for text on narrow screens */
+	}
+}
+
+header img {
+	border-radius: 50%; /* Make the image circular (optional) */
+	max width: 200px;
+    height: auto;
+}
+
+header a {
+	color: orange;
+    text-decoration: none;
+}
+
+h2 {
+	background-color: #3A5791;
+	/*background-color: #79C;*/
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: bold;
+	color: #2233DD;
+	justify-content: center;
+}
+
+section {
+    margin: 20px 0;
+}
+
+section a {
+	color: #FF6000;
+    text-decoration: underline;
+}
+
+section img {
+	width: min(600px, 100%);
+    height: auto;
+}
+
+.paper {
+	font-size: 1em;
+	font-weight: bold;
+	color: #2233DD;
+    text-decoration: none;
+}
+
+.journal {
+	font-style: italic;
+}
+
+footer {
+	background-color: #3A5791;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.toggle-button {
+	cursor: pointer;
+    color: #FF6000;
+	text-align: center;
+    text-decoration: underline;
+}
+.seemore {
+	display: none; /* Hide the description by default */
+	width: min(400px, 100%);
+	margin: 0 auto; /* Center horizontally */
+}
+.legend{
+	font-size: .9em;
+	font-style: italic;
+}
+.abstract{
+	font-size: 1em;
+}
+
+.toggle-button2 {
+	cursor: pointer;
+    color: #FF6000;
+    text-decoration: underline;
+}
+.seemore2 {
+	display: none; /* Hide the description by default */
+	margin: 0 auto; /* Center horizontally */
+}
+
+</style>
 </head>
+
 <body>
-  <h1>Hello, I'm <strong>Your Name</strong>!</h1>
-  <img src="inventory/profile_.jpg" alt="Me">
-  <p>Welcome to my personal webpage hosted on GitHub Pages.</p>
-  <p><a href="https://github.com/username">Follow me on GitHub</a></p>
+  <div class="container">
+
+<header>
+    <img src="inventory/profile_.jpg" width="200">
+	<div>
+        <h1>Boyang Mu</h1>
+        <p>PhD in Economics</p>
+		
+	</div>
+</header>
 </body>
   <a href="about.html">About Me</a>
   <a href="Research.html">Research</a>
